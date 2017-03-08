@@ -1,0 +1,149 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: "Microsoft Yahei";
+}
+.navbar-brand{
+    height: 80px;
+}
+.nav>li>a{
+    padding: 30px 20px;
+    color: black;
+}
+.nav .open,.nav .open>a,.dropdown-menu>li>a:hover,.nav .open>a:hover,.nav-pills > li > a:hover,.nav-pills > li >.active{
+    background: #cc0000;
+    color: white;
+    border-radius: 0;
+}
+.space{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
+}
+.space a{
+    color: #080808;
+}
+a{
+    color: #080808;
+}
+a:hover{
+    color: red;
+}
+h4 a{
+    font-weight: bolder;
+    line-height: 30px;
+}
+h4 a:hover{
+    text-decoration: none;
+}
+#demo{
+    height: 372px;
+    overflow: hidden;
+}
+.play_all .col-md-4{
+    margin-bottom: 10px;
+}
+.wenz{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    box-sizing: border-box;
+}
+.drop1{
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    transition: all 1s ease;
+}
+.drop1,.wenz{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.drop1:hover{
+    top:0;
+    left:-100%;
+}
+.dropdown{
+    overflow: hidden;
+    height: 100%;
+}
+footer{
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+}
+.white18{
+    color: white;
+    font-size: 18px;
+}
+.ccc12 a{
+    color: #ccc;
+    font-size: 12px;
+}
+.footer{
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.ih2{
+    font-size: 24px;
+    line-height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*火箭样式*/
+
+#rocket-to-top div {
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 56px;
+}
+#rocket-to-top .level-2 {
+    background: url("../img/rocket_button_up.png") no-repeat scroll -56px 0 transparent;
+    display: none;
+    height: 86px;
+    opacity: 0;
+    z-index: 1;
+    display: block;
+}
+#rocket-to-top .level-3 {
+    background: none repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 86px;
+    z-index: 2;
+}
+#rocket-to-top {
+    background: url("../img/rocket_button_up.png") no-repeat scroll 0 0 transparent;
+    cursor: default;
+    display: block;
+    height: 86px;
+    margin: -125px 0 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    right: 2%;
+    top: 90%;
+    width: 56px;
+    z-index: 999999;
+    display: none;
+}
+
+/*火箭样式结束*/
